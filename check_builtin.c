@@ -1,4 +1,4 @@
-#include "shell.h"
+#include "shel.h"
 /**
  * check_builtin - Function that checks for built-in commands.
  * @program_name: Program name.
