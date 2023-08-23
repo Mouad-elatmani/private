@@ -35,7 +35,7 @@ int check_builtin(char *program_name, char *input_line, int *process_status,
 			print_environment();
 			break;
 	}
-	if (flag)
+	if (f)
 	{
 		free(line_copy);
 		return (-1);
