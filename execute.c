@@ -1,4 +1,4 @@
-#include "shell.h"
+#include "shel.h"
 void _execute_not_found(char *command_path, char **cmd_argv,
 		char *environment[], int *status)
 {
