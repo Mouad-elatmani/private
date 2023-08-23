@@ -1,4 +1,4 @@
-#include "shell.h"
+#include "shel.h"
 /**
  * run_non_interactive_mode - Function to runprogram in non-interactive mode
  * @argv: Argument vector
