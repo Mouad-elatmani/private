@@ -45,7 +45,7 @@ int _exit(char *line, int *status, int count, char *prog_name, char *message)
 		else
 		{
 			*status = 2;
-			_print_error(prog_name, count, *status, message);
+			print_cu_error(prog_name, count, *status, message);
 			free(line_copy);
 		}
 		return (exit_status);
