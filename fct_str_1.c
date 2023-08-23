@@ -54,19 +54,25 @@ char *_strcpy(char *dest, char *src)
  */
 int _strcmp(char *s1, char *s2)
 {
-	while ((*s1 != '\0' && *s2 != '\0') && *s1 == *s2)
+	int i = 0;
+	int result = 0;
+	int len1, len2;
+
+	len1 = (int)strlen(s1);
+	len2 = (int)strlen(s2);
+
+	if (len1 != len2)
+		return (-1);
+
+	for (i = 0; ((s1[i] != '\0') && (s2[i] != '\0')); i++)
 	{
-		s1++;
-		s2++;
+		result = (s1[i] - s2[i]);
+		if (result != 0)
+		{
+			return (result);
+		}
 	}
-	if (*s1 == *s2)
-	{
-		return (0);
-	}
-	else
-	{
-	return (*s1 - *s2);
-	}
+	return (0);
 }
 /**
 *_strdup - returns a pointer to a newly allocated space in memory
