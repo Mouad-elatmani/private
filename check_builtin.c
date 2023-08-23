@@ -17,7 +17,7 @@ int check_builtin(char *program_name, char *input_line, int *process_status,
 
 	line_copy = strdup(input_line);
 	line_copy = _string_tokenize(line_copy, " ");
-	for (index = 0; index < sizeof(bu_com) / sizeof(bu_com[0]); index++)
+	for (index = 0; index < 2; index++)
 	{
 		if (_strcmp(line_copy, bu_com[index]) == 0)
 		{
