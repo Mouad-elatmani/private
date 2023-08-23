@@ -1,4 +1,4 @@
-#incldue "shel.h"
+#include "shel.h"
 /**
  * print_environment - Function that ptint env command
  *
