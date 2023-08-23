@@ -14,8 +14,8 @@ int _exit(char *line, int *status, int count, char *prog_name, char *message)
 	char *status_str, *line_copy;
 
 	line_copy = _strdup(line);
-	line_copy = strtok_handler(line_copy, " ");
-	status_str = strtok_handler(NULL, " ");
+	line_copy = _string_tokenize(line_copy, " ");
+	status_str = _string_tokenize(NULL, " ");
 	if (!status_str)
 	{
 		free(message);
