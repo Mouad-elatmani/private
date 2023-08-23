@@ -1,4 +1,4 @@
-#include "shell.h"
+#include "shel.h"
 /**
  * _exit - Function to exit the program.
  * @line: User input.
