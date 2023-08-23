@@ -8,7 +8,7 @@
  * @message: Line message.
  * Return: Exit status.
  */
-int _exit(char *line, int *status, int count, char *prog_name, char *message)
+int cu_exit(char *line, int *status, int count, char *prog_name, char *message)
 {
 	int exit_status = 0, valide = 1, i, len;
 	char *status_str, *line_copy;
