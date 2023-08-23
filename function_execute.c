@@ -1,4 +1,4 @@
-#include "shell.h"
+#include "shel.h"
 /**
  * generate_arguments - Function to generate argument vector
  * @line: The input line from getline function
