@@ -1,4 +1,4 @@
-#include "shell.h"
+#include "shel.h"
 /**
  * find_executable - Function checks if a command is executable or not
  * @line: The input line from getline function
