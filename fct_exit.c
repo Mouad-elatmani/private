@@ -13,7 +13,7 @@ int _exit(char *line, int *status, int count, char *prog_name, char *message)
 	int exit_status = 0, valide = 1, i, len;
 	char *status_str, *line_copy;
 
-	line_copy = str_dup(line);
+	line_copy = _strdup(line);
 	line_copy = strtok_handler(line_copy, " ");
 	status_str = strtok_handler(NULL, " ");
 	if (!status_str)
@@ -22,7 +22,7 @@ int _exit(char *line, int *status, int count, char *prog_name, char *message)
 		free(line_copy);
 		exit(*status);
 	}
-	len = str_len(status_str);
+	len = _strlen(status_str);
 	if (status_str != NULL)
 	{
 		if (status_str[0] == '-')
