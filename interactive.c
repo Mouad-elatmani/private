@@ -1,4 +1,4 @@
-#include "shell.h"
+#include "shel.h"
 /**
  * run_interactive_shell - Function to execute program in interactive mode.
  * @arguments: The argument vector.
