@@ -1,4 +1,4 @@
-#include "shell.h"
+#include "shel.h"
 /**
  * cu_getline - Function for reading a line from a stream.
  * @lineptr: Pointer to a string.
