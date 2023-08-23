@@ -29,7 +29,7 @@ int check_builtin(char *program_name, char *input_line, int *process_status,
 	switch (index)
 	{
 		case 0:
-			_exit(input_line, process_status, command_count, program_name, message);
+			cu_exit(input_line, process_status, command_count, program_name, message);
 			break;
 		case 1:
 			print_environment();
