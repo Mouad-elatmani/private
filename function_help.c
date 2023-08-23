@@ -1,4 +1,4 @@
-#include "shell.h"
+#include "shel.h"
 /**
  * convert_to_string - Function to convert an integer to a string.
  * @num: The integer to be converted.
