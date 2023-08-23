@@ -1,4 +1,4 @@
-#include "shell.h"
+#include "shel.h"
 /**
  * command_error - Function to print not found error.
  * @program_name: The name of the program.
